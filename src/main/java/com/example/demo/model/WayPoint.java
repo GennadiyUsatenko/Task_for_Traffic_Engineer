@@ -36,20 +36,20 @@ public class WayPoint extends GlobalPosition {
             case 1:
                 return Arrays.asList(
                         new WayPoint(38.88922, -77.04978, 5000.0, 2000.0),
-                        new WayPoint(48.85889, 2.29583, 2000.0, 4000.0),
-                        new WayPoint(65.85889, 72.29583, 0.0, 0.0)
+                        new WayPoint(43.85889, -74.29583, 2000.0, 3800.0),
+                        new WayPoint(48.85889, -69.29583, 0.0, 0.0)
                 );
             case 2:
                 return Arrays.asList(
                         new WayPoint(38.88922, -77.04978, 5000.0, 2000.0),
-                        new WayPoint(48.85889, 2.29583, 2000.0, 4000.0),
-                        new WayPoint(65.85889, 72.29583, 0.0, 0.0)
+                        new WayPoint(43.85889, -74.29583, 2000.0, 3800.0),
+                        new WayPoint(48.85889, -69.29583, 0.0, 0.0)
                 );
             case 3:
                 return Arrays.asList(
                         new WayPoint(38.88922, -77.04978, 5000.0, 2000.0),
-                        new WayPoint(48.85889, 2.29583, 2000.0, 4000.0),
-                        new WayPoint(65.85889, 72.29583, 0.0, 0.0)
+                        new WayPoint(43.85889, -74.29583, 2000.0, 3800.0),
+                        new WayPoint(48.85889, -69.29583, 0.0, 0.0)
                 );
             default:
                 return null;

@@ -30,7 +30,7 @@ public class SchedulerConfig {
 
     @Scheduled(fixedDelay = 1)
     public void scheduleFixedDelayTask() {
-        if( numberOfFlights < 3){
+        if( numberOfFlights <= 3){
             if(numberOfFlights > 1)flightRepository.printPatsFlights();
             boolean isTemporaryMode = false;
             Airplane airplane = Airplane.getTestAirplane(numberOfFlights);

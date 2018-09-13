@@ -31,11 +31,11 @@ public class AirplaneCharacteristics {
     public static AirplaneCharacteristics getTestAirplaneCharacteristics(int number){
         switch (number){
             case 1:
-                return new AirplaneCharacteristics(10000.0, 40.0, 25.0, 0.5);
+                return new AirplaneCharacteristics(4000.0, 20.0, 50.0, 2.5);
             case 2:
-                return new AirplaneCharacteristics(10000.0, 40.0, 25.0, 0.5);
+                return new AirplaneCharacteristics(4000.0, 20.0, 50.0, 2.5);
             case 3:
-                return new AirplaneCharacteristics(10000.0, 40.0, 25.0, 0.5);
+                return new AirplaneCharacteristics(4000.0, 20.0, 50.0, 2.5);
             default:
                 return null;
         }
